@@ -54,6 +54,7 @@
         { "@type": "Question", "name": "Toimiiko LINKas lasten harrastusten kalenterien kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä. Mikä tahansa harrastuskalenteri, josta saa iCal-linkin, päivittyy LINKasiin automaattisesti." } },
         { "@type": "Question", "name": "Toimiiko LINKas Wilman kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Lukujärjestyksen voi tuoda Wilmasta tai ottaa siitä kuvakaappauksen, jonka LINKas lukee." } },
         { "@type": "Question", "name": "Tarvitseeko lapsi oman puhelimen?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla." } },
+        { "@type": "Question", "name": "Voiko lapsi ansaita lisää?", "acceptedAnswer": { "@type": "Answer", "text": "Voi. Ekstroissa voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa. Ekstrat otetaan käyttöön Asetuksista." } },
         { "@type": "Question", "name": "Toimiiko bussiehdotus koko Suomessa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä, koko Suomessa." } },
         { "@type": "Question", "name": "Entä jos lapsella on kaksi kotia?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa. Kumpikin koti käyttää LINKasia omana tilauksenaan." } }
       ]
@@ -321,7 +322,7 @@
 
 <header class="top" id="top">
   <div class="wrap">
-    <a href="#top" class="top-logo" aria-label="LINKas etusivu"><img src="assets/linkas-logo.png" alt="LINKas" width="720" height="600"></a>
+    <a href="#top" class="top-logo" aria-label="LINKas etusivu"><img src="assets/linkas-logo.png" alt="LINKas" width="720" height="559"></a>
     <nav aria-label="Päävalikko">
       <a class="link" href="#miten">Miten se toimii</a>
       <a class="link" href="#hinta">Hinta</a>
@@ -393,6 +394,15 @@
           </div>
           <div class="step-art"><div class="phone sm"><img src="assets/app/huoltajan-tanaan.png" alt="LINKasin huoltajan näkymä: perheen päivä kerralla" width="804" height="1634" loading="lazy"></div></div>
         </article>
+
+        <article class="step reveal">
+          <div>
+            <span class="num">4</span>
+            <h3>Laita lisähommat tarjolle, lapsi poimii itse</h3>
+            <p>Tarjolla voi olla vaikka lehtien haravointi viidellä eurolla tai ikkunanpesu tunnin ruutuajalla. Lapsi valitsee, mitä haluaa tehdä, ja sinä kuittaat työn, kun se on valmis. LINKas pitää kirjaa viikon summasta, rahan annat itse.</p>
+          </div>
+          <div class="step-art"><div class="phone sm"><img src="assets/app/ekstrat-lapsi.png" alt="LINKasin Ekstrat-näkymä lapselle: tarjolla olevat lisätyöt korvauksineen ja Otan tämän -napit" width="750" height="1524" loading="lazy"></div></div>
+        </article>
       </div>
     </div>
   </section>
@@ -445,8 +455,8 @@
         </article>
         <article class="card reveal">
           <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10.2c.4-1 1.4-1.6 2.5-1.6 1.4 0 2.5.8 2.5 1.9 0 2.6-5 1.3-5 3.8 0 1.1 1.1 1.9 2.5 1.9 1.1 0 2.1-.6 2.5-1.6"/></svg></div>
-          <h3>Viikkoraha ja ruutuaika</h3>
-          <p>Lapsi ansaitsee viikkorahaa tai ruutuaikaa tekemistään tehtävistä. Halutessaan hän voi ottaa listalta lisätehtäviä ja ansaita enemmän. Omat vakiotehtävät pysyvät silti omina.</p>
+          <h3>Viikkoraha, ruutuaika ja ekstrat</h3>
+          <p>Lapsi ansaitsee viikkorahaa tai ruutuaikaa tehtävistä. Ekstroissa laitat tarjolle ylimääräisiä hommia, ja lapsi poimii itse ne, jotka haluaa tehdä. Voit kuitata työn vaikka töistä, kun lapsi liittää mukaan kuvan.</p>
         </article>
       </div>
     </div>
@@ -490,8 +500,8 @@
           <figcaption>Lapsi näkee itse, paljonko viikkorahaa ja ruutuaikaa on kertynyt ja mistä tehtävistä.</figcaption>
         </figure>
         <figure class="shot reveal">
-          <div class="frame phone-wrap"><div class="phone sm"><img src="assets/app/lapsen-tanaan.png" alt="Lapsen Tänään-näkymä" width="804" height="1634" loading="lazy"></div></div>
-          <figcaption>Lapsen näkymä: päivän menot, bussi ja tehtävät yhdessä ruudussa, isolla ja selkeästi.</figcaption>
+          <div class="frame phone-wrap"><div class="phone sm"><img src="assets/app/ekstrat-omalla-listalla.png" alt="Lapsen tehtävälista: omien tehtävien alla poimitut ekstrat korvauksineen" width="750" height="1524" loading="lazy"></div></div>
+          <figcaption>Poimitut ekstrat näkyvät lapsen omalla listalla korvauksen kanssa, ja tehty työ odottaa sinun kuittaustasi.</figcaption>
         </figure>
       </div>
 
@@ -547,6 +557,10 @@
           <p>Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla.</p>
         </article>
         <article class="faq-item reveal">
+          <h3>Voiko lapsi ansaita lisää?</h3>
+          <p>Voi. Ekstroissa voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa. Ekstrat otetaan käyttöön Asetuksista.</p>
+        </article>
+        <article class="faq-item reveal">
           <h3>Toimiiko bussiehdotus koko Suomessa?</h3>
           <p>Kyllä, koko Suomessa.</p>
         </article>
@@ -586,7 +600,7 @@
 
 <footer>
   <div class="wrap">
-    <img src="assets/linkas-logo.png" alt="LINKas" width="720" height="600" loading="lazy">
+    <img src="assets/linkas-logo.png" alt="LINKas" width="720" height="559" loading="lazy">
     <p>LINKas on koko perheen yhteinen kalenteri: menot, lasten harrastukset, tehtävät, kotityöt, listat ja bussiaikataulut yhdessä näkymässä.<br>© 2026 LINKas · <a href="mailto:hello@linkas.app">hello@linkas.app</a></p>
     <div class="links">
       <a href="https://www.instagram.com/linkas.app/" target="_blank" rel="noopener">Instagram</a>
