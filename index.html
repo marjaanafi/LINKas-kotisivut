@@ -278,9 +278,20 @@
   footer img { height: 72px; width: auto; }
   footer p { font-size: 15px; font-weight: 600; color: var(--harmaavihrea); }
   footer p a { color: var(--tummanvihrea); text-decoration: none; border-bottom: 2px solid var(--persikka); }
-  footer .links { display: flex; gap: 22px; font-weight: 700; font-size: 15px; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 10px 22px; font-weight: 700; font-size: 15px; }
   footer .links a { text-decoration: none; }
   footer .links a:hover { color: var(--lehtivihrea); }
+  footer .links .ev-linkki { background: none; border: 0; padding: 0; font: inherit; color: inherit; cursor: pointer; }
+  footer .links .ev-linkki:hover { color: var(--lehtivihrea); }
+  .evaste { position: fixed; z-index: 50; left: 24px; bottom: 24px; max-width: 400px; padding: 24px; background: #fff; border: 1px solid var(--persikka); border-radius: 24px; box-shadow: 0 22px 50px -24px rgba(33,64,46,.45); color: var(--syva-vihrea); font-family: var(--leipa); }
+  .evaste[hidden] { display: none; }
+  .evaste .ev-otsikko { font-weight: 700; font-size: 18px; margin: 0 0 8px; }
+  .evaste .ev-teksti { font-size: 15px; line-height: 1.5; margin: 0 0 18px; }
+  .evaste .ev-teksti a { color: inherit; font-weight: 700; }
+  .evaste .ev-napit { display: flex; gap: 10px; flex-wrap: wrap; }
+  .evaste .ev-btn { flex: 1; min-height: 48px; padding: 0 20px; border-radius: 999px; background: var(--tummanvihrea); color: var(--kerma); border: 2px solid var(--tummanvihrea); font: 700 16px var(--leipa); cursor: pointer; white-space: nowrap; }
+  .evaste .ev-btn:focus-visible { outline: 3px solid var(--oranssi); outline-offset: 2px; }
+  @media (max-width: 620px) { .evaste { left: 12px; right: 12px; bottom: 12px; max-width: none; padding: 20px; } }
 
   .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
   .js .reveal.in { opacity: 1; transform: none; }
@@ -614,10 +625,65 @@
     <div class="links">
       <a href="https://www.instagram.com/linkas.app/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.facebook.com/people/LINKasapp/61594391880560/" target="_blank" rel="noopener">Facebook</a>
+      <a href="/tietosuoja.html">Tietosuoja</a>
+      <button type="button" class="ev-linkki" id="ev-asetukset">Evästeasetukset</button>
       <a href="#top">Ylös</a>
     </div>
   </div>
 </footer>
+
+<div class="evaste" id="evaste" role="dialog" aria-labelledby="ev-otsikko" aria-describedby="ev-teksti" hidden>
+  <p class="ev-otsikko" id="ev-otsikko">Tämä sivusto käyttää evästeitä</p>
+  <p class="ev-teksti" id="ev-teksti">Käytämme analytiikkaevästeitä (Google Analytics) ymmärtääksemme, miten sivustoa käytetään, ja kehittääksemme sitä. Voit muuttaa valintaasi milloin tahansa sivun alalaidan Evästeasetukset-linkistä. <a href="/tietosuoja.html">Lue lisää tietosuojaselosteesta.</a></p>
+  <div class="ev-napit"><button type="button" class="ev-btn" id="ev-hylkaa">Hylkää</button><button type="button" class="ev-btn" id="ev-hyvaksy">Hyväksy evästeet</button></div>
+</div>
+
+<script>
+  /* Evästeet ja Google Analytics. Analytics ladataan vasta, kun kävijä hyväksyy evästeet (Traficomin evästeohje):
+     ennen valintaa ei aseteta evästeitä eikä ladata Googlen skriptiä. Valinta tallentuu selaimen localStorageen. */
+  (function () {
+    var GA_ID = 'G-44M3K88PF2';
+    var KEY = 'linkas-evasteet';
+    var banner = document.getElementById('evaste');
+    var ladattu = false;
+    function lue() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+    function tallenna(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+    function lataaAnalytics() {
+      window['ga-disable-' + GA_ID] = false;
+      if (ladattu) return;
+      ladattu = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', GA_ID);
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+    }
+    function poistaAnalytics() {
+      window['ga-disable-' + GA_ID] = true;
+      var host = location.hostname.replace(/^www\./, '');
+      document.cookie.split(';').forEach(function (c) {
+        var nimi = c.split('=')[0].trim();
+        if (nimi === '_ga' || nimi.indexOf('_ga_') === 0) {
+          ['', '; domain=' + host, '; domain=.' + host].forEach(function (d) {
+            document.cookie = nimi + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+          });
+        }
+      });
+    }
+    function nayta() { banner.hidden = false; }
+    function piilota() { banner.hidden = true; }
+    document.getElementById('ev-hyvaksy').addEventListener('click', function () { tallenna('hyvaksytty'); piilota(); lataaAnalytics(); });
+    document.getElementById('ev-hylkaa').addEventListener('click', function () { tallenna('hylatty'); piilota(); poistaAnalytics(); });
+    document.getElementById('ev-asetukset').addEventListener('click', nayta);
+    var valinta = lue();
+    if (valinta === 'hyvaksytty') lataaAnalytics();
+    if ((valinta !== 'hyvaksytty' && valinta !== 'hylatty') || location.hash === '#evasteet') nayta();
+    window.addEventListener('hashchange', function () { if (location.hash === '#evasteet') nayta(); });
+  })();
+</script>
 
 <script>
   /* Sähköpostilista: Google Forms -lomakkeen tiedot. Vaihda nämä kaksi riviä, kun lomake on valmis.
