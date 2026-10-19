@@ -50,7 +50,7 @@
       "mainEntity": [
         { "@type": "Question", "name": "Mikä LINKas on?", "acceptedAnswer": { "@type": "Answer", "text": "LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät ja lapsi voi näppärästi ansaita tehdyistä tehtävistä viikkorahaa tai ruutuaikaa." } },
         { "@type": "Question", "name": "Milloin LINKas julkaistaan?", "acceptedAnswer": { "@type": "Answer", "text": "Loppuvuodesta 2026 App Storeen ja Google Playhin. Jätä sähköpostisi, niin saat yhden viestin julkaisupäivänä." } },
-        { "@type": "Question", "name": "Mitä LINKas maksaa?", "acceptedAnswer": { "@type": "Answer", "text": "6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä." } },
+        { "@type": "Question", "name": "Mitä LINKas maksaa?", "acceptedAnswer": { "@type": "Answer", "text": "Ensimmäinen kuukausi on ilmainen. Sen jälkeen 6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä." } },
         { "@type": "Question", "name": "Toimiiko LINKas lasten harrastusten kalenterien kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä. Mikä tahansa harrastuskalenteri, josta saa iCal-linkin, päivittyy LINKasiin automaattisesti." } },
         { "@type": "Question", "name": "Toimiiko LINKas Wilman kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Lukujärjestyksen voi tuoda Wilmasta tai ottaa siitä kuvakaappauksen, jonka LINKas lukee." } },
         { "@type": "Question", "name": "Tarvitseeko lapsi oman puhelimen?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla." } },
@@ -208,6 +208,14 @@
   .price-big .amount { font-family: var(--otsikko); font-size: clamp(62px, 7.2vw, 100px); color: var(--oranssi); line-height: 1; }
   .price-big .per { font-size: 18px; font-weight: 700; color: var(--persikka); }
   .price-big .vat { font-size: 14px; color: var(--salvia); font-weight: 600; }
+  .price-big .amount-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; }
+  .price-big .tarra { position: relative; flex: none; width: 146px; height: 146px; border-radius: 50%; background: var(--persikka); color: var(--syva-vihrea); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center; font-weight: 700; line-height: 1.15; box-shadow: 4px 4px 0 var(--oranssi); transform: rotate(6deg); animation: tarra-keinu 3.6s ease-in-out infinite; }
+  .price-big .tarra::before { content: ""; position: absolute; inset: 7px; border-radius: 50%; border: 2px dashed var(--oranssi); }
+  .price-big .tarra .pieni { font-size: 13px; }
+  .price-big .tarra .iso { font-family: var(--otsikko); font-weight: 400; font-size: 25px; line-height: 1; }
+  @keyframes tarra-keinu { 0%,100% { transform: rotate(3deg); } 50% { transform: rotate(10deg); } }
+  @media (max-width: 1100px) { .price-big .tarra { width: 120px; height: 120px; } .price-big .tarra .pieni { font-size: 11.5px; } .price-big .tarra .iso { font-size: 21px; } .price-big .tarra::before { inset: 6px; } }
+  @media (max-width: 900px) { .price-big .amount-row { gap: 10px 14px; } .price-big .tarra { width: 100px; height: 100px; } .price-big .tarra .pieni { font-size: 10.5px; } .price-big .tarra .iso { font-size: 17px; } .price-big .tarra::before { inset: 5px; } }
   .price-big .alt { font-size: 16px; color: var(--salvia); font-weight: 600; }
 
   /* Proof */
@@ -473,7 +481,7 @@
           <p>Samaan tilaukseen mahtuvat kodin kaikki huoltajat ja lapset, ja hinta pysyy samana, oli lapsia yksi tai viisi.</p>
         </div>
         <div class="price-big">
-          <span class="amount">6,99 €</span>
+          <span class="amount-row"><span class="amount">6,99 €</span><span class="tarra"><span class="pieni">Ensimmäinen<br>kuukausi</span><span class="iso">ilmaiseksi</span></span></span>
           <span class="per">kuukaudessa, koko perheelle</span>
           <span class="vat">Hinta sisältää alv:n 25,5 %.</span>
         </div>
@@ -543,7 +551,7 @@
         </article>
         <article class="faq-item reveal">
           <h3>Mitä LINKas maksaa?</h3>
-          <p>6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä.</p>
+          <p>Ensimmäinen kuukausi on ilmainen. Sen jälkeen 6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä.</p>
         </article>
         <article class="faq-item reveal">
           <h3>Toimiiko LINKas lasten harrastusten kalenterien kanssa?</h3>
