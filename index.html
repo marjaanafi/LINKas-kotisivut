@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LINKas | Perhekalenteri, tehtävät ja listat yhdessä sovelluksessa</title>
-<meta name="description" content="Harrastukset, Wilma, kotityöt, kauppalista ja koulubussi yhdessä näkymässä, jonka jokainen perheenjäsen näkee itse. 6,99 €/kk koko perheelle.">
+<meta name="description" content="Harrastukset, Wilma, kotityöt, kauppalista ja koulubussi yhdessä näkymässä, jonka jokainen perheenjäsen näkee itse. Tulossa loppuvuodesta 2026.">
 <meta property="og:title" content="LINKas | Perhekalenteri, tehtävät ja listat yhdessä sovelluksessa">
 <meta property="og:description" content="Lisää menot kerran ja koko perhe pysyy kärryillä. Perhekalenteri, tehtävät, listat ja bussit yhdessä sovelluksessa. Tulossa loppuvuodesta 2026.">
 <meta property="og:image" content="https://linkas.app/assets/og-image.png">
@@ -38,11 +38,7 @@
       "operatingSystem": "iOS, Android",
       "inLanguage": "fi",
       "description": "LINKas on perheen yhteinen kalenterisovellus, joka kokoaa lasten harrastukset, koulun lukujärjestyksen, kotityöt, kauppalistat ja koulumatkan bussiaikataulut yhteen näkymään. Lapsella ja huoltajalla on omat näkymät.",
-      "publisher": { "@id": "https://linkas.app/#organization" },
-      "offers": [
-        { "@type": "Offer", "price": "6.99", "priceCurrency": "EUR", "description": "Kuukausitilaus koko perheelle",
-          "priceSpecification": { "@type": "UnitPriceSpecification", "price": "6.99", "priceCurrency": "EUR", "valueAddedTaxIncluded": true, "billingDuration": "P1M" } }
-      ]
+      "publisher": { "@id": "https://linkas.app/#organization" }
     },
     {
       "@type": "FAQPage",
@@ -50,13 +46,12 @@
       "mainEntity": [
         { "@type": "Question", "name": "Mikä LINKas on?", "acceptedAnswer": { "@type": "Answer", "text": "LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät ja lapsi voi näppärästi ansaita tehdyistä tehtävistä viikkorahaa tai ruutuaikaa." } },
         { "@type": "Question", "name": "Milloin LINKas julkaistaan?", "acceptedAnswer": { "@type": "Answer", "text": "Loppuvuodesta 2026 App Storeen ja Google Playhin. Jätä sähköpostisi, niin saat yhden viestin julkaisupäivänä." } },
-        { "@type": "Question", "name": "Mitä LINKas maksaa?", "acceptedAnswer": { "@type": "Answer", "text": "Ensimmäinen kuukausi on ilmainen. Sen jälkeen 6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä." } },
         { "@type": "Question", "name": "Toimiiko LINKas lasten harrastusten kalenterien kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä. Mikä tahansa harrastuskalenteri, josta saa iCal-linkin, päivittyy LINKasiin automaattisesti." } },
         { "@type": "Question", "name": "Toimiiko LINKas Wilman kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Lukujärjestyksen voi tuoda Wilmasta tai ottaa siitä kuvakaappauksen, jonka LINKas lukee." } },
         { "@type": "Question", "name": "Tarvitseeko lapsi oman puhelimen?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla." } },
         { "@type": "Question", "name": "Voiko lapsi ansaita lisää?", "acceptedAnswer": { "@type": "Answer", "text": "Voi. Ekstroissa voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa. Ekstrat otetaan käyttöön Asetuksista." } },
         { "@type": "Question", "name": "Toimiiko bussiehdotus koko Suomessa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä, koko Suomessa." } },
-        { "@type": "Question", "name": "Entä jos lapsella on kaksi kotia?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa. Kumpikin koti käyttää LINKasia omana tilauksenaan." } }
+        { "@type": "Question", "name": "Entä jos lapsella on kaksi kotia?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa." } }
       ]
     },
     {
@@ -198,26 +193,6 @@
   .card h3 { font-size: 24px; margin-bottom: 10px; }
   .card p { font-size: 15.5px; line-height: 1.55; }
 
-  /* Hinta */
-  .price { padding: 0 0 110px; }
-  .price-box { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; background: var(--tummanvihrea); color: var(--kerma); border-radius: 32px; padding: 56px; position: relative; overflow: hidden; }
-  .price-box .eyebrow { color: var(--persikka); }
-  .price-box h2 { font-size: clamp(40px, 4.8vw, 60px); color: var(--kerma); margin-bottom: 16px; }
-  .price-box p { font-size: 19px; max-width: 520px; color: var(--kerma); }
-  .price-big { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
-  .price-big .amount { font-family: var(--otsikko); font-size: clamp(62px, 7.2vw, 100px); color: var(--oranssi); line-height: 1; }
-  .price-big .per { font-size: 18px; font-weight: 700; color: var(--persikka); }
-  .price-big .vat { font-size: 14px; color: var(--salvia); font-weight: 600; }
-  .price-big .amount-row { display: flex; align-items: flex-start; align-self: stretch; margin-right: -56px; }
-  .price-big .tarra { position: relative; flex: none; margin: 20px auto 0; width: 146px; height: 146px; border-radius: 50%; background: var(--persikka); color: var(--syva-vihrea); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center; font-weight: 700; line-height: 1.15; box-shadow: 4px 4px 0 var(--oranssi); transform: rotate(12deg); }
-  .price-big .tarra .pieni { font-size: 13px; }
-  .price-big .tarra .iso { font-size: 22px; line-height: 1.05; }
-  @media (max-width: 1100px) { .price-big .tarra { width: 120px; height: 120px; } .price-big .tarra .pieni { font-size: 11.5px; } .price-big .tarra .iso { font-size: 18px; } }
-  @media (max-width: 1020px) { .price-big .amount-row { align-items: center; } .price-big .tarra { margin: 0 auto; top: -15px; } }
-  @media (max-width: 620px) { .price-big .amount-row { margin-right: -24px; } }
-  @media (max-width: 900px) { .price-big .tarra { width: 100px; height: 100px; } .price-big .tarra .pieni { font-size: 10.5px; } .price-big .tarra .iso { font-size: 15px; } }
-  .price-big .alt { font-size: 16px; color: var(--salvia); font-weight: 600; }
-
   /* Proof */
   .proof { background: var(--persikka); padding: 110px 0; position: relative; overflow: hidden; }
   .proof .blob-3 { width: 520px; left: -220px; top: -140px; fill: var(--kerma); }
@@ -298,7 +273,7 @@
 
   @media (max-width: 1020px) {
     .grid { grid-template-columns: repeat(2, 1fr); }
-    .hero-grid, .cta-grid, .price-box, .replaces { grid-template-columns: 1fr; }
+    .hero-grid, .cta-grid, .replaces { grid-template-columns: 1fr; }
     .step { grid-template-columns: 1fr; gap: 28px; }
     .step:nth-child(even) .step-art { order: 0; }
     .shots { grid-template-columns: 1fr; justify-items: center; }
@@ -322,8 +297,6 @@
     .how, .proof, .cta { padding: 80px 0; }
     .faq { padding: 70px 0; }
     .features { padding-bottom: 80px; }
-    .price { padding-bottom: 80px; }
-    .price-box { padding: 36px 24px; border-radius: 24px; }
     .replaces { padding: 28px 22px; }
     .replaces ul { grid-template-columns: 1fr; }
     .phone { width: 270px; }
@@ -345,7 +318,6 @@
     <a href="#top" class="top-logo" aria-label="LINKas etusivu"><img src="assets/linkas-logo.png" alt="LINKas" width="720" height="559"></a>
     <nav aria-label="Päävalikko">
       <a class="link" href="#miten">Miten se toimii</a>
-      <a class="link" href="#hinta">Hinta</a>
       <a class="link" href="#ukk">Usein kysyttyä</a>
       <a class="btn btn-vihrea" href="#ilmoita">Pysy kärryillä</a>
     </nav>
@@ -482,24 +454,6 @@
     </div>
   </section>
 
-  <!-- Hinta -->
-  <section class="price" id="hinta">
-    <div class="wrap">
-      <div class="price-box reveal">
-        <div>
-          <span class="eyebrow">Hinta</span>
-          <h2>Yksi hinta koko perheelle.</h2>
-          <p>Samaan tilaukseen mahtuvat kodin kaikki huoltajat ja lapset, ja hinta pysyy samana, oli lapsia yksi tai viisi.</p>
-        </div>
-        <div class="price-big">
-          <span class="amount-row"><span class="amount">6,99 €</span><span class="tarra"><span class="pieni">Ensimmäinen<br>kuukausi</span><span class="iso">ilmaiseksi</span></span></span>
-          <span class="per">kuukaudessa, koko perheelle</span>
-          <span class="vat">Hinta sisältää alv:n 25,5 %.</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- 3. PROOF -->
   <section class="proof" id="miksi">
     <svg class="blob blob-3" viewBox="0 0 200 200" aria-hidden="true"><path d="M44.6,-58.6C57.1,-50.4,66.1,-36.3,70.4,-20.8C74.7,-5.3,74.3,11.6,67.6,25.2C60.9,38.8,47.9,49.1,33.5,57.3C19.1,65.6,3.3,71.8,-13.5,71.3C-30.3,70.8,-48.2,63.6,-58.6,50.6C-69,37.6,-71.9,18.8,-70.5,1.4C-69.1,-16,-63.4,-32,-52.6,-40.7C-41.8,-49.4,-25.9,-50.8,-11.1,-53.9C3.7,-57,32.1,-66.8,44.6,-58.6Z" transform="translate(100 100)"/></svg>
@@ -561,10 +515,6 @@
           <p>Loppuvuodesta 2026 App Storeen ja Google Playhin. Jätä sähköpostisi, niin saat yhden viestin julkaisupäivänä.</p>
         </article>
         <article class="faq-item reveal">
-          <h3>Mitä LINKas maksaa?</h3>
-          <p>Ensimmäinen kuukausi on ilmainen. Sen jälkeen 6,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä.</p>
-        </article>
-        <article class="faq-item reveal">
           <h3>Toimiiko LINKas lasten harrastusten kalenterien kanssa?</h3>
           <p>Kyllä. Mikä tahansa harrastuskalenteri, josta saa iCal-linkin, päivittyy LINKasiin automaattisesti.</p>
         </article>
@@ -586,7 +536,7 @@
         </article>
         <article class="faq-item reveal">
           <h3>Entä jos lapsella on kaksi kotia?</h3>
-          <p>Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa. Kumpikin koti käyttää LINKasia omana tilauksenaan.</p>
+          <p>Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa.</p>
         </article>
       </div>
     </div>
