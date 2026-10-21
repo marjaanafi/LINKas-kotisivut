@@ -195,7 +195,16 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261022-1730-21@linkas.app
+UID:koskipallo-t16-20261021-1400-21@linkas.app
+DTSTAMP:20261021T080000Z
+DTSTART:20261021T110000Z
+DTEND:20261021T123000Z
+SUMMARY:Jalkapallotreenit
+LOCATION:Kaupin urheilupuisto\, Tampere
+DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
+END:VEVENT
+BEGIN:VEVENT
+UID:koskipallo-t16-20261022-1730-22@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261022T143000Z
 DTEND:20261022T160000Z
@@ -204,7 +213,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261027-1730-22@linkas.app
+UID:koskipallo-t16-20261027-1730-23@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261027T153000Z
 DTEND:20261027T170000Z
@@ -213,7 +222,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261029-1730-23@linkas.app
+UID:koskipallo-t16-20261029-1730-24@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261029T153000Z
 DTEND:20261029T170000Z
@@ -222,7 +231,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261031-1000-24@linkas.app
+UID:koskipallo-t16-20261031-1000-25@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261031T080000Z
 DTEND:20261031T093000Z
@@ -231,7 +240,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261103-1730-25@linkas.app
+UID:koskipallo-t16-20261103-1730-26@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261103T153000Z
 DTEND:20261103T170000Z
@@ -240,7 +249,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261105-1730-26@linkas.app
+UID:koskipallo-t16-20261105-1730-27@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261105T153000Z
 DTEND:20261105T170000Z
@@ -249,7 +258,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261110-1730-27@linkas.app
+UID:koskipallo-t16-20261110-1730-28@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261110T153000Z
 DTEND:20261110T170000Z
@@ -258,7 +267,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261112-1730-28@linkas.app
+UID:koskipallo-t16-20261112-1730-29@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261112T153000Z
 DTEND:20261112T170000Z
@@ -267,7 +276,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261114-1000-29@linkas.app
+UID:koskipallo-t16-20261114-1000-30@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261114T080000Z
 DTEND:20261114T093000Z
@@ -276,7 +285,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261117-1730-30@linkas.app
+UID:koskipallo-t16-20261117-1730-31@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261117T153000Z
 DTEND:20261117T170000Z
@@ -285,7 +294,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261119-1730-31@linkas.app
+UID:koskipallo-t16-20261119-1730-32@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261119T153000Z
 DTEND:20261119T170000Z
@@ -294,7 +303,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261124-1730-32@linkas.app
+UID:koskipallo-t16-20261124-1730-33@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261124T153000Z
 DTEND:20261124T170000Z
@@ -303,7 +312,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261126-1730-33@linkas.app
+UID:koskipallo-t16-20261126-1730-34@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261126T153000Z
 DTEND:20261126T170000Z
@@ -312,7 +321,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261128-1000-34@linkas.app
+UID:koskipallo-t16-20261128-1000-35@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T093000Z
@@ -321,7 +330,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261201-1730-35@linkas.app
+UID:koskipallo-t16-20261201-1730-36@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261201T153000Z
 DTEND:20261201T170000Z
@@ -330,7 +339,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261203-1730-36@linkas.app
+UID:koskipallo-t16-20261203-1730-37@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261203T153000Z
 DTEND:20261203T170000Z
@@ -339,7 +348,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261208-1730-37@linkas.app
+UID:koskipallo-t16-20261208-1730-38@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261208T153000Z
 DTEND:20261208T170000Z
@@ -348,7 +357,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261210-1730-38@linkas.app
+UID:koskipallo-t16-20261210-1730-39@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261210T153000Z
 DTEND:20261210T170000Z
@@ -357,7 +366,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261212-1000-39@linkas.app
+UID:koskipallo-t16-20261212-1000-40@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261212T080000Z
 DTEND:20261212T093000Z
@@ -366,7 +375,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261215-1730-40@linkas.app
+UID:koskipallo-t16-20261215-1730-41@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261215T153000Z
 DTEND:20261215T170000Z
@@ -375,7 +384,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20261217-1730-41@linkas.app
+UID:koskipallo-t16-20261217-1730-42@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20261217T153000Z
 DTEND:20261217T170000Z
@@ -384,7 +393,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270107-1730-42@linkas.app
+UID:koskipallo-t16-20270107-1730-43@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270107T153000Z
 DTEND:20270107T170000Z
@@ -393,7 +402,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270112-1730-43@linkas.app
+UID:koskipallo-t16-20270112-1730-44@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270112T153000Z
 DTEND:20270112T170000Z
@@ -402,7 +411,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270114-1730-44@linkas.app
+UID:koskipallo-t16-20270114-1730-45@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270114T153000Z
 DTEND:20270114T170000Z
@@ -411,7 +420,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270116-1000-45@linkas.app
+UID:koskipallo-t16-20270116-1000-46@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270116T080000Z
 DTEND:20270116T093000Z
@@ -420,7 +429,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270119-1730-46@linkas.app
+UID:koskipallo-t16-20270119-1730-47@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270119T153000Z
 DTEND:20270119T170000Z
@@ -429,7 +438,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270121-1730-47@linkas.app
+UID:koskipallo-t16-20270121-1730-48@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270121T153000Z
 DTEND:20270121T170000Z
@@ -438,7 +447,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270126-1730-48@linkas.app
+UID:koskipallo-t16-20270126-1730-49@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270126T153000Z
 DTEND:20270126T170000Z
@@ -447,7 +456,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270128-1730-49@linkas.app
+UID:koskipallo-t16-20270128-1730-50@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270128T153000Z
 DTEND:20270128T170000Z
@@ -456,7 +465,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270130-1000-50@linkas.app
+UID:koskipallo-t16-20270130-1000-51@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270130T080000Z
 DTEND:20270130T093000Z
@@ -465,7 +474,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270202-1730-51@linkas.app
+UID:koskipallo-t16-20270202-1730-52@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270202T153000Z
 DTEND:20270202T170000Z
@@ -474,7 +483,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270204-1730-52@linkas.app
+UID:koskipallo-t16-20270204-1730-53@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270204T153000Z
 DTEND:20270204T170000Z
@@ -483,7 +492,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270209-1730-53@linkas.app
+UID:koskipallo-t16-20270209-1730-54@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270209T153000Z
 DTEND:20270209T170000Z
@@ -492,7 +501,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270211-1730-54@linkas.app
+UID:koskipallo-t16-20270211-1730-55@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270211T153000Z
 DTEND:20270211T170000Z
@@ -501,7 +510,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270213-1000-55@linkas.app
+UID:koskipallo-t16-20270213-1000-56@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270213T080000Z
 DTEND:20270213T093000Z
@@ -510,7 +519,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270216-1730-56@linkas.app
+UID:koskipallo-t16-20270216-1730-57@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270216T153000Z
 DTEND:20270216T170000Z
@@ -519,7 +528,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270218-1730-57@linkas.app
+UID:koskipallo-t16-20270218-1730-58@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270218T153000Z
 DTEND:20270218T170000Z
@@ -528,7 +537,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270302-1730-58@linkas.app
+UID:koskipallo-t16-20270302-1730-59@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270302T153000Z
 DTEND:20270302T170000Z
@@ -537,7 +546,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270304-1730-59@linkas.app
+UID:koskipallo-t16-20270304-1730-60@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270304T153000Z
 DTEND:20270304T170000Z
@@ -546,7 +555,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270309-1730-60@linkas.app
+UID:koskipallo-t16-20270309-1730-61@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270309T153000Z
 DTEND:20270309T170000Z
@@ -555,7 +564,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270311-1730-61@linkas.app
+UID:koskipallo-t16-20270311-1730-62@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270311T153000Z
 DTEND:20270311T170000Z
@@ -564,7 +573,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270313-1000-62@linkas.app
+UID:koskipallo-t16-20270313-1000-63@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270313T080000Z
 DTEND:20270313T093000Z
@@ -573,7 +582,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270316-1730-63@linkas.app
+UID:koskipallo-t16-20270316-1730-64@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270316T153000Z
 DTEND:20270316T170000Z
@@ -582,7 +591,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270318-1730-64@linkas.app
+UID:koskipallo-t16-20270318-1730-65@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270318T153000Z
 DTEND:20270318T170000Z
@@ -591,7 +600,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270323-1730-65@linkas.app
+UID:koskipallo-t16-20270323-1730-66@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270323T153000Z
 DTEND:20270323T170000Z
@@ -600,7 +609,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270325-1730-66@linkas.app
+UID:koskipallo-t16-20270325-1730-67@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270325T153000Z
 DTEND:20270325T170000Z
@@ -609,7 +618,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270327-1000-67@linkas.app
+UID:koskipallo-t16-20270327-1000-68@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270327T080000Z
 DTEND:20270327T093000Z
@@ -618,7 +627,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270330-1730-68@linkas.app
+UID:koskipallo-t16-20270330-1730-69@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270330T143000Z
 DTEND:20270330T160000Z
@@ -627,7 +636,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270401-1730-69@linkas.app
+UID:koskipallo-t16-20270401-1730-70@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270401T143000Z
 DTEND:20270401T160000Z
@@ -636,7 +645,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270406-1730-70@linkas.app
+UID:koskipallo-t16-20270406-1730-71@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270406T143000Z
 DTEND:20270406T160000Z
@@ -645,7 +654,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270408-1730-71@linkas.app
+UID:koskipallo-t16-20270408-1730-72@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270408T143000Z
 DTEND:20270408T160000Z
@@ -654,7 +663,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270410-1000-72@linkas.app
+UID:koskipallo-t16-20270410-1000-73@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270410T070000Z
 DTEND:20270410T083000Z
@@ -663,7 +672,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270413-1730-73@linkas.app
+UID:koskipallo-t16-20270413-1730-74@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270413T143000Z
 DTEND:20270413T160000Z
@@ -672,7 +681,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270415-1730-74@linkas.app
+UID:koskipallo-t16-20270415-1730-75@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270415T143000Z
 DTEND:20270415T160000Z
@@ -681,7 +690,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270420-1730-75@linkas.app
+UID:koskipallo-t16-20270420-1730-76@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270420T143000Z
 DTEND:20270420T160000Z
@@ -690,7 +699,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270422-1730-76@linkas.app
+UID:koskipallo-t16-20270422-1730-77@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270422T143000Z
 DTEND:20270422T160000Z
@@ -699,7 +708,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270424-1000-77@linkas.app
+UID:koskipallo-t16-20270424-1000-78@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270424T070000Z
 DTEND:20270424T083000Z
@@ -708,7 +717,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270427-1730-78@linkas.app
+UID:koskipallo-t16-20270427-1730-79@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270427T143000Z
 DTEND:20270427T160000Z
@@ -717,7 +726,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270429-1730-79@linkas.app
+UID:koskipallo-t16-20270429-1730-80@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270429T143000Z
 DTEND:20270429T160000Z
@@ -726,7 +735,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270504-1730-80@linkas.app
+UID:koskipallo-t16-20270504-1730-81@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270504T143000Z
 DTEND:20270504T160000Z
@@ -735,7 +744,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270506-1730-81@linkas.app
+UID:koskipallo-t16-20270506-1730-82@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270506T143000Z
 DTEND:20270506T160000Z
@@ -744,7 +753,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270508-1000-82@linkas.app
+UID:koskipallo-t16-20270508-1000-83@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270508T070000Z
 DTEND:20270508T083000Z
@@ -753,7 +762,7 @@ LOCATION:Hervannan tekonurmi\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270511-1730-83@linkas.app
+UID:koskipallo-t16-20270511-1730-84@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270511T143000Z
 DTEND:20270511T160000Z
@@ -762,7 +771,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270513-1730-84@linkas.app
+UID:koskipallo-t16-20270513-1730-85@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270513T143000Z
 DTEND:20270513T160000Z
@@ -771,7 +780,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270518-1730-85@linkas.app
+UID:koskipallo-t16-20270518-1730-86@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270518T143000Z
 DTEND:20270518T160000Z
@@ -780,7 +789,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270520-1730-86@linkas.app
+UID:koskipallo-t16-20270520-1730-87@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270520T143000Z
 DTEND:20270520T160000Z
@@ -789,7 +798,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270522-1000-87@linkas.app
+UID:koskipallo-t16-20270522-1000-88@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270522T070000Z
 DTEND:20270522T083000Z
@@ -798,7 +807,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Paikalla 45 min ennen. Pelipaita ja shortsit.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270525-1730-88@linkas.app
+UID:koskipallo-t16-20270525-1730-89@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270525T143000Z
 DTEND:20270525T160000Z
@@ -807,7 +816,7 @@ LOCATION:Kaupin urheilupuisto\, Tampere
 DESCRIPTION:Koskipallo T16. Mukaan juomapullo ja säärisuojat.
 END:VEVENT
 BEGIN:VEVENT
-UID:koskipallo-t16-20270527-1730-89@linkas.app
+UID:koskipallo-t16-20270527-1730-90@linkas.app
 DTSTAMP:20261021T080000Z
 DTSTART:20270527T143000Z
 DTEND:20270527T160000Z
