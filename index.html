@@ -144,6 +144,9 @@
   .phone img { border-radius: 34px; width: 100%; }
   .phone.sm { width: 250px; border-radius: 38px; padding: 9px; }
   .phone.sm img { border-radius: 30px; }
+  .phone video { display: block; width: 100%; height: auto; border-radius: 34px; background: var(--kerma); }
+  .phone.sm video { border-radius: 30px; }
+  .phone.vid { width: min(290px, 100%); }
 
   /* Yläpalkki */
   .top { position: sticky; top: 0; z-index: 20; background: var(--kerma); border-bottom: 1px solid transparent; transition: border-color .2s ease; }
@@ -405,7 +408,7 @@
             <span class="quote">"Ella vie pullot kauppaan torstaina ja Otto tyhjentää tiskikoneen lauantaina."</span>
             <p>LINKas tekee tehtävät oikeille lapsille, oikeille päiville. Yhdellä sanelulla voit antaa monta tehtävää usealle perheenjäsenelle.</p>
           </div>
-          <div class="step-art"><div class="phone sm"><img src="assets/app/sanelu.png" alt="LINKasin sanelu käynnissä" width="804" height="1634" loading="lazy"></div></div>
+          <div class="step-art"><div class="phone sm vid"><video class="app-video" muted playsinline loop preload="none" poster="assets/video/sanelu.jpg" width="600" height="1020" aria-label="Video: huoltaja sanelee tehtävän, ja LINKas tekee siitä tehtävän Helmille"><source src="assets/video/sanelu.webm" type="video/webm"><source src="assets/video/sanelu.mp4" type="video/mp4"></video></div></div>
         </article>
 
         <article class="step reveal">
@@ -414,7 +417,7 @@
             <h3>Jokainen perheenjäsen näkee omat menonsa ja hommansa itse</h3>
             <p>Lapsi avaa oman näkymänsä ja näkee päivän menot, omat tehtävänsä ja mihin bussiin ehtii. Sinä näet koko perheen. Muistutus läksyistä katoaa, kun lapsi kuittaa ne tehdyiksi.</p>
           </div>
-          <div class="step-art"><div class="phone sm"><img src="assets/app/huoltajan-tanaan.png" alt="LINKasin huoltajan näkymä: perheen päivä kerralla" width="804" height="1634" loading="lazy"></div></div>
+          <div class="step-art"><div class="phone sm vid"><video class="app-video" muted playsinline loop preload="none" poster="assets/video/bussi.jpg" width="600" height="1140" aria-label="Video: Helmin oma näkymä näyttää seuraavan menon ja bussit, joilla ehtii treeneihin"><source src="assets/video/bussi.webm" type="video/webm"><source src="assets/video/bussi.mp4" type="video/mp4"></video></div></div>
         </article>
 
         <article class="step reveal">
@@ -423,7 +426,7 @@
             <h3>Laita lisähommat tarjolle, lapsi poimii itse</h3>
             <p>Tarjolla voi olla vaikka lehtien haravointi viidellä eurolla tai ikkunanpesu tunnin ruutuajalla. Lapsi valitsee, mitä haluaa tehdä, ja sinä kuittaat työn, kun se on valmis. LINKas pitää kirjaa viikon summasta, rahan annat itse.</p>
           </div>
-          <div class="step-art"><div class="phone sm"><img src="assets/app/ekstrat-lapsi.png" alt="LINKasin Ekstrat-näkymä lapselle: tarjolla olevat lisätyöt korvauksineen ja Otan tämän -napit" width="750" height="1524" loading="lazy"></div></div>
+          <div class="step-art"><div class="phone sm vid"><video class="app-video" muted playsinline loop preload="none" poster="assets/video/ekstra.jpg" width="600" height="1140" aria-label="Video: Helmi poimii ekstran Lehtien haravointi 5 euroa omalle listalleen"><source src="assets/video/ekstra.webm" type="video/webm"><source src="assets/video/ekstra.mp4" type="video/mp4"></video></div></div>
         </article>
       </div>
     </div>
@@ -726,6 +729,27 @@
       }
       cta.classList.add('sent');
     });
+  })();
+</script>
+
+<script>
+  /* Sovellusvideot: äänetön silmukka, joka käynnistyy, kun video tulee näkyviin, ja pysähtyy, kun se poistuu.
+     Video ladataan vasta näkyviin tullessa (preload="none"). Jos kävijä on pyytänyt laitteeltaan vähemmän liikettä,
+     näytetään kansikuva ja video lähtee käyntiin vain napauttamalla. */
+  (function () {
+    var videot = document.querySelectorAll('video.app-video');
+    if (!videot.length) return;
+    function toista(v) { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+    var vahemmanLiiketta = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (vahemmanLiiketta) {
+      videot.forEach(function (v) { v.addEventListener('click', function () { if (v.paused) toista(v); else v.pause(); }); });
+      return;
+    }
+    if (!('IntersectionObserver' in window)) { videot.forEach(toista); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) toista(e.target); else e.target.pause(); });
+    }, { threshold: 0.35 });
+    videot.forEach(function (v) { io.observe(v); });
   })();
 </script>
 </body>
