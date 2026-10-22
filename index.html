@@ -746,10 +746,15 @@
       return;
     }
     if (!('IntersectionObserver' in window)) { videot.forEach(toista); return; }
+    var nakyvat = new Set();
     var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) { if (e.isIntersecting) toista(e.target); else e.target.pause(); });
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { nakyvat.add(e.target); toista(e.target); } else { nakyvat.delete(e.target); e.target.pause(); }
+      });
     }, { threshold: 0.35 });
     videot.forEach(function (v) { io.observe(v); });
+    /* Taustavälilehdellä selain ei käynnistä videota, joten näkyvissä olevat käynnistetään, kun välilehti avataan. */
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) nakyvat.forEach(toista); });
   })();
 </script>
 </body>
