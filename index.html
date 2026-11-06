@@ -10,9 +10,14 @@
 <meta property="og:image" content="https://linkas.app/assets/og-image.png">
 <meta property="og:url" content="https://linkas.app/">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:locale:alternate" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#284B35">
 <link rel="canonical" href="https://linkas.app/">
+<link rel="alternate" hreflang="fi" href="https://linkas.app/">
+<link rel="alternate" hreflang="en" href="https://linkas.app/en/">
+<link rel="alternate" hreflang="x-default" href="https://linkas.app/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <script type="application/ld+json">
 {
@@ -48,13 +53,13 @@
       "@type": "FAQPage",
       "@id": "https://linkas.app/#faq",
       "mainEntity": [
-        { "@type": "Question", "name": "Mikä LINKas on?", "acceptedAnswer": { "@type": "Answer", "text": "LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät ja lapsi voi näppärästi ansaita tehdyistä tehtävistä viikkorahaa tai ruutuaikaa." } },
+        { "@type": "Question", "name": "Mikä LINKas on?", "acceptedAnswer": { "@type": "Answer", "text": "LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät, ja lapsi voi ansaita rahaa tai ruutuaikaa tekemällä ekstroja." } },
         { "@type": "Question", "name": "Milloin LINKas julkaistaan?", "acceptedAnswer": { "@type": "Answer", "text": "Loppuvuodesta 2026 App Storeen ja Google Playhin. Jätä sähköpostisi, niin saat yhden viestin julkaisupäivänä." } },
         { "@type": "Question", "name": "Mitä LINKas maksaa?", "acceptedAnswer": { "@type": "Answer", "text": "Ensimmäinen kuukausi on ilmainen. Sen jälkeen 4,99 € kuukaudessa koko perheelle. Hinta sisältää arvonlisäveron eikä riipu perheenjäsenten määrästä." } },
         { "@type": "Question", "name": "Toimiiko LINKas lasten harrastusten kalenterien kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä. Mikä tahansa harrastuskalenteri, josta saa iCal-linkin, päivittyy LINKasiin automaattisesti." } },
         { "@type": "Question", "name": "Toimiiko LINKas Wilman kanssa?", "acceptedAnswer": { "@type": "Answer", "text": "Lukujärjestyksen voi tuoda Wilmasta tai ottaa siitä kuvakaappauksen, jonka LINKas lukee." } },
         { "@type": "Question", "name": "Tarvitseeko lapsi oman puhelimen?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla." } },
-        { "@type": "Question", "name": "Voiko lapsi ansaita lisää?", "acceptedAnswer": { "@type": "Answer", "text": "Voi. Ekstroissa voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa. Ekstrat otetaan käyttöön Asetuksista." } },
+        { "@type": "Question", "name": "Voiko lapsi ansaita rahaa tai ruutuaikaa?", "acceptedAnswer": { "@type": "Answer", "text": "Voi, ekstroilla. Voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa." } },
         { "@type": "Question", "name": "Toimiiko bussiehdotus koko Suomessa?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä, koko Suomessa." } },
         { "@type": "Question", "name": "Entä jos lapsella on kaksi kotia?", "acceptedAnswer": { "@type": "Answer", "text": "Lapsella on yksi näkymä, josta hän näkee omat menonsa kummassakin kodissa. Kumpikin koti käyttää LINKasia omana tilauksenaan." } }
       ]
@@ -161,6 +166,8 @@
   .top nav a.link { text-decoration: none; font-weight: 700; font-size: 16px; }
   .top nav a.link:hover { color: var(--lehtivihrea); }
   .top .btn { min-height: 44px; padding: 0 20px; font-size: 15px; }
+  .top nav a.lang { text-decoration: none; font-weight: 700; font-size: 15px; line-height: 1; padding: 8px 11px; border: 2px solid var(--persikka-syva); border-radius: 999px; }
+  .top nav a.lang:hover { background: var(--persikka); }
 
   /* Hero */
   .hero { position: relative; padding: 56px 0 96px; overflow: hidden; }
@@ -356,6 +363,7 @@
       <a class="link" href="#miten">Miten se toimii</a>
       <a class="link" href="#hinta">Hinta</a>
       <a class="link" href="#ukk">Usein kysyttyä</a>
+      <a class="lang" href="/en/" hreflang="en" lang="en" aria-label="In English">EN</a>
       <a class="btn btn-vihrea" href="#ilmoita">Pysy kärryillä</a>
     </nav>
   </div>
@@ -484,8 +492,8 @@
         </article>
         <article class="card reveal">
           <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10.2c.4-1 1.4-1.6 2.5-1.6 1.4 0 2.5.8 2.5 1.9 0 2.6-5 1.3-5 3.8 0 1.1 1.1 1.9 2.5 1.9 1.1 0 2.1-.6 2.5-1.6"/></svg></div>
-          <h3>Viikkoraha, ruutuaika ja ekstrat</h3>
-          <p>Lapsi ansaitsee viikkorahaa tai ruutuaikaa tehtävistä. Ekstroissa laitat tarjolle ylimääräisiä hommia, ja lapsi poimii itse ne, jotka haluaa tehdä. Voit kuitata työn vaikka töistä, kun lapsi liittää mukaan kuvan.</p>
+          <h3>Ekstrat</h3>
+          <p>Laita tarjolle ylimääräisiä kotitöitä, ja lapsi poimii itse ne, jotka haluaa tehdä. Korvaukseksi voi antaa rahaa tai ruutuaikaa. Voit kuitata työn vaikka töistä, kun lapsi liittää mukaan kuvan.</p>
         </article>
       </div>
     </div>
@@ -525,8 +533,8 @@
           <figcaption>Tehtävän voi kirjoittaa, kuvata tai sanella, ja valita kenelle ja mille päivälle se kuuluu.</figcaption>
         </figure>
         <figure class="shot reveal">
-          <div class="frame phone-wrap"><div class="phone sm"><img src="assets/app/palkkiot-lapsi.png" alt="Lapsen tehtävänäkymä: tällä viikolla kerätty viikkoraha 2 euroa ja ruutuaika 15 minuuttia, tehdyt tehtävät kuitattu" width="804" height="1634" loading="lazy"></div></div>
-          <figcaption>Lapsi näkee itse, paljonko viikkorahaa ja ruutuaikaa on kertynyt ja mistä tehtävistä.</figcaption>
+          <div class="frame phone-wrap"><div class="phone sm"><img src="assets/app/kaikki-tehty.jpg" alt="Lapsen näkymä, kun kaikki päivän tehtävät on tehty: Kaikki tehty! Hienoa työtä Helmi, jatka samaan malliin." width="600" height="1140" loading="lazy"></div></div>
+          <figcaption>Kun kaikki päivän tehtävät on tehty, LINKas kehuu lasta.</figcaption>
         </figure>
         <figure class="shot reveal">
           <div class="frame phone-wrap"><div class="phone sm"><img src="assets/app/ekstrat-omalla-listalla.png" alt="Lapsen tehtävälista: omien tehtävien alla poimitut ekstrat korvauksineen" width="750" height="1524" loading="lazy"></div></div>
@@ -563,7 +571,7 @@
       <div class="faq-grid">
         <article class="faq-item reveal">
           <h3>Mikä LINKas on?</h3>
-          <p>LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät ja lapsi voi näppärästi ansaita tehdyistä tehtävistä viikkorahaa tai ruutuaikaa.</p>
+          <p>LINKas on perhekalenteri ja perheen yhteinen sovellus, johon kootaan lasten harrastukset, koulun lukujärjestys, kotityöt, koulumatkan bussiaikataulut ja listat jaettavista kauppalistoista to do -listoihin. Lapsella ja huoltajalla on omat näkymät, ja lapsi voi ansaita rahaa tai ruutuaikaa tekemällä ekstroja.</p>
         </article>
         <article class="faq-item reveal">
           <h3>Milloin LINKas julkaistaan?</h3>
@@ -586,8 +594,8 @@
           <p>Lapsen oma näkymä toimii lapsen omalla puhelimella tai vaikkapa perheen yhteisellä tabletilla.</p>
         </article>
         <article class="faq-item reveal">
-          <h3>Voiko lapsi ansaita lisää?</h3>
-          <p>Voi. Ekstroissa voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa. Ekstrat otetaan käyttöön Asetuksista.</p>
+          <h3>Voiko lapsi ansaita rahaa tai ruutuaikaa?</h3>
+          <p>Voi, ekstroilla. Voit laittaa tarjolle ylimääräisiä kotitöitä, esimerkiksi lehtien haravoinnin viidellä eurolla tai ikkunanpesun tunnin ruutuajalla. Lapsi poimii itse haluamansa, merkitsee ne tehdyiksi ja voi liittää mukaan kuvan. Kun hyväksyt työn, korvaus näkyy lapsen viikon summassa.</p>
         </article>
         <article class="faq-item reveal">
           <h3>Toimiiko bussiehdotus koko Suomessa?</h3>
@@ -636,6 +644,7 @@
       <a href="https://www.facebook.com/people/LINKasapp/61594391880560/" target="_blank" rel="noopener">Facebook</a>
       <a href="/tietosuoja.html">Tietosuoja</a>
       <button type="button" class="ev-linkki" id="ev-asetukset">Evästeasetukset</button>
+      <a href="/en/" hreflang="en" lang="en">In English</a>
       <a href="#top">Ylös</a>
     </div>
   </div>
@@ -700,6 +709,8 @@
      GOOGLE_FORM_FIELD: sähköpostikentän tunniste, muotoa entry.123456789. */
   var GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLSdFbV61PilKJCvoVAnPBRDGB98ugtM5dSiJE8Beo_WuUO4t-A/formResponse";
   var GOOGLE_FORM_FIELD = "entry.758995587";
+  /* Kieli-kenttä: kertoo, kummalla kielellä liityttiin listalle (fi / en), jotta julkaisuviesti lähtee oikealla kielellä. */
+  var GOOGLE_FORM_LANG_FIELD = "";
 
   (function () {
     var top = document.querySelector('.top');
@@ -726,7 +737,7 @@
       var value = input.value.trim();
       if (!value || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) { input.focus(); input.setAttribute('aria-invalid', 'true'); return; }
       if (GOOGLE_FORM_ACTION && GOOGLE_FORM_FIELD) {
-        var data = new FormData(); data.append(GOOGLE_FORM_FIELD, value);
+        var data = new FormData(); data.append(GOOGLE_FORM_FIELD, value); if (GOOGLE_FORM_LANG_FIELD) data.append(GOOGLE_FORM_LANG_FIELD, document.documentElement.lang);
         fetch(GOOGLE_FORM_ACTION, { method: 'POST', mode: 'no-cors', body: data }).catch(function () {});
       } else {
         console.warn('Google Forms -lomaketta ei ole vielä kytketty (GOOGLE_FORM_ACTION ja GOOGLE_FORM_FIELD).');
